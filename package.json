@@ -24,6 +24,7 @@
     "slick-carousel": "^1.8.1"
   },
   "dependencies": {
-    "rateyo": "^2.3.2"
+    "rateyo": "^2.3.2",
+    "smartmenus": "^1.1.1"
   }
 }

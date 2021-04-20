@@ -1,5 +1,21 @@
+$accent: #f5535e;
 
-
+%gotham-400{
+  font-family: 'Gotham-Regularr', sans-serif;
+  font-weight: 400;
+}
+%gotham-500{
+  font-family: 'Gotham-Medium', sans-serif;
+  font-weight: 500;
+}
+%gotham-700{
+  font-family: 'Gotham-Bold', sans-serif;
+  font-weight: 700;
+}
+%copperplate-700{
+  font-family: 'Copperplate-Gothic-Bold', sans-serif;
+  font-weight: 700;
+}
 
 @function max($numbers...) {
   @return m#{a}x(#{$numbers});

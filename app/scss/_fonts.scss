@@ -1,0 +1,36 @@
+@font-face{
+  font-family: 'Gotham-Regular';
+  font-weight: 400;
+  font-style: normal;
+  src: local('Gotham-Regular'),
+       url('../fonts/Gotham-Regular.woff2') format('woff2'),
+       url('../fonts/Gotham-Regular.woff') format('woff');
+  font-display: swap;
+}
+@font-face{
+  font-family: 'Gotham-Medium';
+  font-weight: 500;
+  font-style: normal;
+  src: local('Gotham-Medium'),
+       url('../fonts/Gotham-Medium.woff2') format('woff2'),
+       url('../fonts/Gotham-Medium.woff') format('woff');
+  font-display: swap;
+}
+@font-face{
+  font-family: 'Gotham-Bold';
+  font-weight: 700;
+  font-style: normal;
+  src: local('Gotham-Bold'),
+       url('../fonts/Gotham-Bold.woff2') format('woff2'),
+       url('../fonts/Gotham-Bold.woff') format('woff');
+  font-display: swap;
+}
+@font-face{
+  font-family: 'Copperplate-Gothic-Bold';
+  font-weight: 700;
+  font-style: normal;
+  src: local('Copperplate-Gothic-Bold'),
+       url('../fonts/Copperplate-Gothic-Bold.woff2') format('woff2'),
+       url('../fonts/Copperplate-Gothic-Bold.woff') format('woff');
+  font-display: swap;
+}

@@ -2,16 +2,305 @@
 <html lang="en">
 
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Nike</title>
-   <link rel="stylesheet" href="css/style.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nike</title>
+  <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
+  <header class="header">
+    <div class="header__top">
+      <div class="container">
+        <div class="header__top-inner">
+          <div class="header__top-left">
+
+            <nav class="menu">
+              <ul class="menu__list">
+                <li class="menu__item menu__item-currentli">
+                  <a class="menu__name" href="#">Валюта</a>
+                  <span class="menu__arrow arrow"></span>
+                  <ul class="sub-menu__list sub-menu__list-currentli">
+                    <li class="sub-menu__item sub-menu__item-top">
+                      <a class="sub-menu__link" href="#">Доллар</a>
+                    </li>
+                    <li class="sub-menu__item">
+                      <a class="sub-menu__link" href="#">Евро</a>
+                    </li>
+                    <li class="sub-menu__item">
+                      <a class="sub-menu__link" href="#">Рубль</a>
+                    </li>
+                    <li class="sub-menu__item">
+                      <a class="sub-menu__link" href="#">Гривна</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu__item menu__item-lang">
+                  <a class="menu__lang" href="#">Язык</a>
+                  <span class="menu__arrow arrow"></span>
+                  <ul class="sub-menu__list sub-menu__list-lang">
+                    <li class="sub-menu__item sub-menu__item-top"">
+                      <a class=" sub-menu__link" href="#">English</a>
+                    </li>
+                    <li class="sub-menu__item">
+                      <a class="sub-menu__link" href="#">Русский</a>
+                    </li>
+                    <li class="sub-menu__item">
+                      <a class="sub-menu__link" href="#">Українська</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="header__top-right">
+            <nav class="menu-nav">
+              <ul class="menu-nav__list">
+                <li class="menu-nav__item menu-nav__item-account">
+                  <a class="menu-nav__link menu-nav__link-account" href="#">Мой аккаунт</a>
+                  <span class=" arrow-account"></span>
+                </li>
+                <li class="menu-nav__item menu-nav__item-favorites">
+                  <a class="menu-nav__link menu-nav__link-favorites" href="#">Желаемое</a>
+                </li>
+                <li class="menu-nav__item menu-nav__item-chosen">
+                  <a class="menu-nav__link menu-nav__link-chosen" href="#">Выбранное</a>
+                </li>
+                <li class="menu-nav__item menu-nav__item-login">
+                  <a class="menu-nav__link menu-nav__link-login" href="#">Вход</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header__content">
+      <div class="container">
+        <div class="header__content-wrapper">
+          <div class="header__content-inner">
+            <div class="header__logo">
+              <a href="#"><img class="logo" src="images/nike.png" alt="логотип NIKE"></a>
+              <span class="header__logo-subtitle">AIR FORCE</span>
+            </div>
+
+            <nav class="menu-categories">
+              <ul class="menu-categories__list">
+                <li class="menu-categories__item menu-categories__item-first">
+                  <a class="menu-categories__link" href="#">Все категории</a>
+                  <span class="menu__arrow"></span>
+                  <ul class="sub-menu-categories">
+                    <li class="sub-menu-categories__item">
+                      <a class="sub-menu-categories__link" href="#">Мужская коллекция</a>
+                    </li>
+                    <li class="sub-menu-categories__item">
+                      <a class="sub-menu-categories__link" href="#">Женская коллекция</a>
+                    </li>
+                    <li class="sub-menu-categories__item">
+                      <a class="sub-menu-categories__link" href="#">Унисекс коллекция</a>
+                    </li>
+                    <li class="sub-menu-categories__item">
+                      <a class="sub-menu-categories__link" href="#">Для активного отдыха</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+            <form class="header__content-form" action="#">
+              <input class="header__content-input" type="text" placeholder="Введите ваш запрос">
+              <button class="header__content-btn" type="submit">
+                <img src="images/icons/search-white.svg" alt="search images">
+              </button>
+            </form>
+
+            <div class="header__content-card">
+              <a href="#">Корзина товаров</a>
+              <span>0 item(s)- $0.00</span>
+            </div>
+          </div>
+
+          <nav class="header-big__menu">
+            <ul class="header-big__menu-list">
+              <li class="header-big__menu-item header-big__menu-item-main">
+                <a class="header-big__menu-link header-big__menu-link--active" href="#">Главная</a>
+                <ul class="header-big__submenu-list-main">
+                  <li class="header-big__submenu-item">
+                    <a class="header-big__submenu-link" href="#">Товары для мужчин</a>
+                  </li>
+                  <li class="header-big__submenu-item">
+                    <a class="header-big__submenu-link" href="#">Товары для женщин</a>
+                  </li>
+                  <li class="header-big__submenu-item">
+                    <a class="header-big__submenu-link" href="#">Товары для детей</a>
+                  </li>
+                  <li class="header-big__submenu-item">
+                    <a class="header-big__submenu-link" href="#">Для всей семьи</a>
+                  </li>
+                  <li class="header-big__submenu-item">
+                    <a class="header-big__submenu-link" href="#">Унисекс</a>
+                  </li>
+                  <li class="header-big__submenu-item">
+                    <a class="header-big__submenu-link" href="#">Скидки, акции.</a>
+                  </li>
+                  <li class="header-big__submenu-item">
+                    <a class="header-big__submenu-link" href="#">Другое</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="header-big__menu-item header-big__menu-item-mens">
+                <a class="header-big__menu-link" href="#">Мужчинам</a>
+                <ul class="header-big__submenu-list-mens">
+                  <li class="header-big__submenu-item">
+                    <a class="header-big__submenu-link" href="#">Одежда</a>
+                  </li>
+                  <li class="header-big__submenu-item">
+                    <a class="header-big__submenu-link" href="#">Обувь</a>
+                  </li>
+                  <li class="header-big__submenu-item">
+                    <a class="header-big__submenu-link" href="#">Нижнее белье</a>
+                  </li>
+                  <li class="header-big__submenu-item">
+                    <a class="header-big__submenu-link" href="#">Аксессуары</a>
+                  </li>
+                  <li class="header-big__submenu-item">
+                    <a class="header-big__submenu-link" href="#">Все для спорта</a>
+                  </li>
+                  <li class="header-big__submenu-item">
+                    <a class="header-big__submenu-link" href="#">Скидки, акции.</a>
+                  </li>
+                  <li class="header-big__submenu-item">
+                    <a class="header-big__submenu-link" href="#">Другое</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="header-big__menu-item header-big__menu-item-womens">
+                <a class="header-big__menu-link" href="#">Женщинам</a>
+                <ul class="header-big__submenu-list-womens">
+                  <li class="header-big__submenu-item">
+                    <a class="header-big__submenu-link" href="#">Одежда</a>
+                  </li>
+                  <li class="header-big__submenu-item">
+                    <a class="header-big__submenu-link" href="#">Обувь</a>
+                  </li>
+                  <li class="header-big__submenu-item">
+                    <a class="header-big__submenu-link" href="#">Нижнее белье</a>
+                  </li>
+                  <li class="header-big__submenu-item">
+                    <a class="header-big__submenu-link" href="#">Аксессуары</a>
+                  </li>
+                  <li class="header-big__submenu-item">
+                    <a class="header-big__submenu-link" href="#">Все для спорта</a>
+                  </li>
+                  <li class="header-big__submenu-item">
+                    <a class="header-big__submenu-link" href="#">Скидки, акции.</a>
+                  </li>
+                  <li class="header-big__submenu-item">
+                    <a class="header-big__submenu-link" href="#">Другое</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="header-big__menu-item header-big__menu-item-clild">
+                <a class="header-big__menu-link" href="#">Детям</a>
+                <ul class="header-big__submenu-list-clild">
+                  <li class="header-big__submenu-item">
+                    <a class="header-big__submenu-link" href="#">Все для мальчиков</a>
+                  </li>
+                  <li class="header-big__submenu-item">
+                    <a class="header-big__submenu-link" href="#">Все для девочек</a>
+                  </li>
+                  <li class="header-big__submenu-item">
+                    <a class="header-big__submenu-link" href="#">Аксессуары</a>
+                  </li>
+                  <li class="header-big__submenu-item">
+                    <a class="header-big__submenu-link" href="#">До 3-х лет</a>
+                  </li>
+                  <li class="header-big__submenu-item">
+                    <a class="header-big__submenu-link" href="#">Дети и спорт</a>
+                  </li>
+                  <li class="header-big__submenu-item">
+                    <a class="header-big__submenu-link" href="#">Скидки, акции.</a>
+                  </li>
+                  <li class="header-big__submenu-item">
+                    <a class="header-big__submenu-link" href="#">Другое</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="header-big__menu-item header-big__menu-item-blog">
+                <a class="header-big__menu-link" href="#">Блог</a>
+                <ul class="header-big__submenu-list-blog">
+                  <li class="header-big__submenu-item">
+                    <a class="header-big__submenu-link" href="#">Наша компания</a>
+                  </li>
+                  <li class="header-big__submenu-item">
+                    <a class="header-big__submenu-link" href="#">Наши магазины</a>
+                  </li>
+                  <li class="header-big__submenu-item">
+                    <a class="header-big__submenu-link" href="#">Наше производство</a>
+                  </li>
+                  <li class="header-big__submenu-item">
+                    <a class="header-big__submenu-link" href="#">Наша политика</a>
+                  </li>
+                  <li class="header-big__submenu-item">
+                    <a class="header-big__submenu-link" href="#">Наши клиенты</a>
+                  </li>
+                  <li class="header-big__submenu-item">
+                    <a class="header-big__submenu-link" href="#">Шаши планы</a>
+                  </li>
+                  <li class="header-big__submenu-item">
+                    <a class="header-big__submenu-link" href="#">Наши вакансии</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="header-big__menu-item header-big__menu-item-contacts">
+                <a class="header-big__menu-link" href="#">Контакты</a>
+                <ul class="header-big__submenu-list-contacts">
+                  <li class="header-big__submenu-item">
+                    <a class="header-big__submenu-link" href="#">Выберите город</a>
+                  </li>
+                  <li class="header-big__submenu-item">
+                    <a class="header-big__submenu-link" href="#">тел. горячей линии</a>
+                  </li>
+                  <li class="header-big__submenu-item">
+                    <a class="header-big__submenu-link" href="#">наш e-mail</a>
+                  </li>
+                  <li class="header-big__submenu-item">
+                    <a class="header-big__submenu-link" href="#">Задать вопрос</a>
+                  </li>
+                  <li class="header-big__submenu-item">
+                    <a class="header-big__submenu-link" href="#">Оставить отзыв</a>
+                  </li>
+                  <li class="header-big__submenu-item">
+                    <a class="header-big__submenu-link" href="#">Вам перезвонить?</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="form-box">
+      <form class="account-form">
+        <input class="account-form__input" type="text" placeholder="Введите ваше имя">
+        <input class="account-form__password" type="password" placeholder="Введите ваш пароль">
+        <button class="account-form__btn">Войти</button>
+      </form>
+      <div class="account-form__link-box">
+        <a class="account-form__link" href="#">Забыли пароль?</a>
+        <a class="account-form__link" href="#">Регистрация</a>
+      </div>
+    </div>
+
+  </header>
+  <main class="main">
+      <section class="product">
+        
+      </section>
+  </main>
 
 
-   <script src="js/main.min.js"></script>
+  <script src="js/main.min.js"></script>
 </body>
 
 </html>
