@@ -12,7 +12,19 @@ body{
   flex-grow: 1;
 }
 .container{
-  max-width: 1200px;
+  max-width: 1230px;
   padding: 0 15px;
   margin: 0 auto;
+}
+.title{
+  @extend %gotham-700;
+  font-size: 48px;
+  padding-top: 50px;
+  text-align: center;
+}
+.subtitle{
+   @extend %gotham-700;
+   font-size: 36px;
+   margin-bottom: 60px;
+   text-align: center;
 }
